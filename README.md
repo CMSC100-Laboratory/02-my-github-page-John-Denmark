@@ -7,6 +7,6 @@
 <br>3. Commit and push your "index.html"<br>
 <br>4. The link to the deployed site should be in the pages tab again.<br>
 
-<br>Draft<br>
+<br>My key takeaways from this exercise will be the honing my front-end capabilities and understanding the necessity of flexing the page for good ui and ux experience.<br>
 
 <br>[DOCS](https://docs.google.com/document/d/1CtCEZnDAc8OgyRCpPpOmSslvL7K8fholzcawpLty-G0/edit?usp=sharing)<br>
