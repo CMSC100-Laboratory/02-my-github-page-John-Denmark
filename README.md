@@ -9,4 +9,4 @@
 
 <br>Draft<br>
 
-<br>[DOCS] (https://docs.google.com/document/d/1CtCEZnDAc8OgyRCpPpOmSslvL7K8fholzcawpLty-G0/edit?usp=sharing/)<br>
+<br>[DOCS](https://docs.google.com/document/d/1CtCEZnDAc8OgyRCpPpOmSslvL7K8fholzcawpLty-G0edit?usp=sharing)<br>
