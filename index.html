@@ -1,0 +1,151 @@
+<!--John Denmark G. Hernandez
+2024-03039
+CMSC 100 EXER 2
+C-1L
+References:
+https://stackoverflow.com/questions/8683528/embed-image-in-a-button-element
+https://www.w3schools.com/tags/tag_head.asp
+https://www.w3schools.com/howto/howto_css_icon_buttons.asp
+https://stackoverflow.com/questions/18813299/changing-image-on-hover-with-css-html
+https://www.w3schools.com/howto/howto_css_image_overlay.asp
+https://www.w3schools.com/css/css_navbar.asp
+https://www.w3schools.com/html/html_id.asp
+https://www.w3schools.com/tags/tag_header.asp
+https://www.w3schools.com/css/css3_flexbox.asp
+https://www.w3schools.com/css/css_navbar.asp
+https://www.w3schools.com/tags/att_a_href.asp
+https://www.w3schools.com/cssref/sel_all.php
+-->
+
+<!DOCTYPE html>
+
+<head>
+    <title>John Hernandez | Portfolio</title>
+    <link rel="stylesheet" href="flex.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">John Denmark Hernandez</a>       <!--Header as the navigation tab with my name as the "logo"-->
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>                    <!--# for static web pages-->
+            <a href="#projects">My Projects</a>
+            <a href="#skills">Skills</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">                          <!--Home Section--> 
+        <div class="home-content">
+            <h1>Hi, I'm John Denmark Hernandez</h1>
+            <h3>An Aspiring Developer</h3>
+            <p>
+                I am a graduating Computer Science student at the University of the Philippines Los Baños. I am an <!--Home Contents-->
+                aspiring <br>
+                game developer. Learn more about me <a href="#about">here!</a>
+            </p>
+            <div class="btn-box">
+                <a href="#footer">Contact Me</a>               <!--Button to go to my contact details-->
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="photo.jpg" alt="My Photo">          <!--My Photo at the side-->
+        </div>
+    </section>
+
+    <section class="about" id="about">        <!--About me section-->
+        <div class="about-img">
+            <img src="photo.jpg" alt="Profile Circle">        <!--My photo-->
+        </div>
+        <h2 class="heading">About <span>Me</span></h2>
+
+        <div class="about-content">
+            <h3>Computer Science Student at UPLB</h3>
+            <p>
+                I am John Denmark G. Hernandez, I live in San Pedro, Laguna and I am 19 years old. I am an alumnus of
+                Muntinlupa Science High
+                School and is currently studying Computer Science in UPLB. My hobbies include playing games, sleeping,        <!--About me content-->
+                watching movies and spending time with loved ones.
+                I am currently a resident member in UPLB Computer Science Society and UP Munsci Alumni Society.
+                I am an aspiring game developer but I am also interested in the field of Cybersecurity.
+            </p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/denmark.hernandez.25/" target="_blank" class="btn">
+                    <img src="facebook-logo.png" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/ateshi_25/" target="_blank" class="btn">           <!--Buttons for my social media and I used logos instead of regular buttons-->
+                    <img src="instagram-logo.png" alt="Instagram">
+                </a>
+                <a href="https://www.linkedin.com/in/john-denmark-hernandez-078097360/" target="_blank" class="btn">
+                    <img src="linkedin-logo.png" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">                  <!--My previous projects-->
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="projects-row">
+            <div class="project-card">
+                <img src="optimizer.jpg" alt="Linear Programming App">
+                <h3>Linear Programming Optimization</h3>
+                <p>R-based pollution reduction model</p>
+            </div>
+
+            <div class="project-card">
+                <img src="pokemon.jpg" alt="Outreach Project">           <!--List of projects-->
+                <h3>Pokemon Safari Game</h3>
+                <p>Python Pokemon Safari Game in the Terminal</p>
+            </div>
+
+            <div class="project-card">
+                <img src="farmworld.jpg" alt="Web Development">
+                <h3>Java Inventory-Based Farming Game</h3>
+                <p>Farming Game that has inventory elements</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">       <!--List of programming languages I use-->
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-row">
+            <div class="skill-item">
+                <img src="python-logo.png" alt="Python">
+                <p>Python</p>
+            </div>
+
+            <div class="skill-item">
+                <img src="java-logo.png" alt="Java">
+                <p>Java</p>
+            </div>
+
+            <div class="skill-item">
+                <img src="c-logo.png" alt="C">
+                <p>C</p>
+            </div>
+
+            <div class="skill-item">
+                <img src="r-logo.png" alt="R">
+                <p>R</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">          <!--My Contact Details as footer-->
+        <div class="footer-contact">
+            <h3>Contact Me</h3>
+            <p>Phone: +63 956 326 3891</p>
+            <p>Email: jghernandez6@up.edu.ph</p>
+            <p>San Pedro City, Laguna, Calabarzon, Philippines</p>
+        </div>
+        <div class="footer-backtotop">
+            <a href="#home">Back to Top</a>         <!--Back to top button-->
+        </div>
+    </footer>
+
+</body>
+
+</html>

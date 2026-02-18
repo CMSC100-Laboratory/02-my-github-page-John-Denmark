@@ -1,0 +1,308 @@
+
+* {               /*Universal selector*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; 
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+body {         /*Body background and content color*/
+    background: #001e33;
+    color: #ededed;
+}
+
+
+.header {            /*header positioning,size and flex properties*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {                   /*Logo properties*/
+    font-size: 25px;
+    color: #ededed;
+    font-weight: 600;
+}
+
+.navbar a {              /*Navigation bar text links properties*/
+    font-size: 18px;
+    color: #ededed;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover, .navbar a.active {      /*Highlights the text light blue if hovered*/
+    color: #00abf0;
+}
+
+
+.home {                      /*Home section properties*/
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.home-content h3 {           /*Home contents properties*/
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+.home a{
+    color: #00abf0;       /*Home hypertext link color*/
+}
+
+.btn-box{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+}
+.btn-box a {
+    display: inline-block;           /*Button for contact me*/
+    padding: 12px 28px;
+    background: #00abf0;
+    border-radius: 6px;
+    color: #081b29;
+    font-weight: 600;
+    margin-top: 20px;
+    
+}
+
+.home .btn-box a:hover {
+    background: transparent;                /*Adds a shadow when hovering the button*/
+    color: #00abf0;
+    box-shadow: 0 0 10px #00abf0;
+}
+.home-img img {
+    width: 600px;            
+    height: 600px;           
+    border-radius: 50%;     
+    border: 3px solid #00abf0;           /*My image properties*/
+    object-fit: cover;      
+    box-shadow: 0 0 20px #00abf0; 
+    margin-left: 30px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;                       /*About me properties*/
+    background: #112e42; 
+    padding: 100px 10%;
+}
+
+.heading {
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about-img {
+    position: relative;
+    width: 400px; 
+    height: 400px;
+    display: flex;          
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img img {
+    width: 360px; 
+    height: 360px;
+    border-radius: 180px; 
+    border: 3px solid #00abf0;              /*Turns the image circle*/
+    box-shadow: 0 0 15px #00abf0; 
+    object-fit: cover;
+}
+
+.about-content h3 {
+    font-size: 26px;
+    color: #00abf0;
+}
+
+.about-content p {
+    font-size: 16px;
+    margin: 20px 0 30px;
+    line-height: 1.6; 
+}
+
+.social-media {                             
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 25px;
+}
+
+.social-media .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;                         /*Properties for the logo buttons*/
+    height: 50px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 8px; 
+    transition: 0.3s;
+  
+}
+
+.social-media .btn img {
+    width: 60px;  
+    height: 60px;
+    object-fit: fill;
+
+}
+
+
+.social-media .btn:hover {
+    background: #00abf0;
+    box-shadow: 0 0 15px #00abf0;
+}
+
+.projects {
+    padding: 100px 10%;          /*Hover section*/
+    background: #001e33;
+}
+
+.projects-row {
+    display: flex;
+    justify-content: center; 
+    gap: 30px;               
+    flex-wrap: wrap;       
+}
+
+.project-card {
+    flex: 1;
+    max-width: 350px;       
+    background: #112e42;    
+    padding: 20px;                       /*Project cards and images properties*/
+    border-radius: 10px;
+    border: 2px solid #00abf0;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.project-card img {
+    width: 100%;            
+    height: 200px;          
+    object-fit: cover;      
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.project-card h3 {
+    font-size: 20px;
+    color: #00abf0;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+
+.project-card:hover {
+    box-shadow: 0 0 20px #00abf0;            /*Slight lift when hovering*/
+    transform: translateY(-5px); 
+}
+
+.skills {                   /*Skills section properties*/
+    padding: 100px 10%;
+    background: #112e42; 
+    text-align: center;
+}
+
+.skills-row {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.skill-item img {
+    width: 80px;  
+    height: 80px; 
+    object-fit: contain;
+    margin-bottom: 15px;
+    filter: drop-shadow(0 0 5px rgba(0, 171, 240, 0.2)); 
+}
+
+.skill-item p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ededed;
+}
+
+
+.skill-item:hover {
+    transform: translateY(-10px);               /*Slight lift when hovering*/
+}
+
+.skill-item:hover img {
+    filter: drop-shadow(0 0 15px #00abf0);    /*Shadow when hovering*/
+}
+
+
+
+.footer {                          /*Footer properties*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 10%;
+    background: #001e33; 
+    border-top: 2px solid #00abf0; 
+}
+
+.footer-text p {
+    font-size: 14px;
+    color: #ededed;
+}
+
+.footer-backtotop a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #00abf0;
+    border-radius: 8px;
+    color: #081b29;
+    font-weight: 600;
+    transition: 0.3s;
+    border: 2px solid #00abf0;
+}
+
+
+.footer-backtotop a:hover {
+    background: transparent;
+    color: #00abf0;
+    box-shadow: 0 0 15px #00abf0;
+}
+
+
